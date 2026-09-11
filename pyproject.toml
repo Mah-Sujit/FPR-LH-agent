@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foresight-agent"
+version = "1.0.0rc1"
+description = "Predictive failure detection and adaptive recovery for long-horizon agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "ForesightAgent contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9.0"]
+llm = ["openai>=1.0,<3.0"]
+ml = ["scikit-learn>=1.6,<2.0", "joblib>=1.4,<2.0"]
+
+[project.scripts]
+foresight-example = "foresight_agent.example:main"
+foresight-evaluate = "foresight_agent.evaluation.runner:main"
+foresight-llm-example = "foresight_agent.llm_example:main"
+foresight-openai-example = "foresight_agent.openai_example:main"
+foresight-study = "foresight_agent.evaluation.study:main"
+foresight-noisy-study = "foresight_agent.evaluation.noisy_study:main"
+foresight-train = "foresight_agent.evaluation.training:main"
+foresight-data = "foresight_agent.data.cli:main"
+foresight-train-external = "foresight_agent.evaluation.external_training:main"
+foresight-collect = "foresight_agent.data.collector:main"
+foresight-annotations = "foresight_agent.data.annotation:main"
+foresight-package = "foresight_agent.research.pipeline:main"
+foresight-release = "foresight_agent.research.release:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

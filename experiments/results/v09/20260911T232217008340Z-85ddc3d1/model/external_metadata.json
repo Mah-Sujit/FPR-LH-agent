@@ -1,0 +1,25 @@
+{
+  "version": "0.9.0",
+  "source": "data/collection/v08/provisional_labeled.jsonl",
+  "selected_model": "logistic_regression",
+  "threshold": 0.05,
+  "features": [
+    "confidence",
+    "tool_success",
+    "progress_score",
+    "progress_delta",
+    "repeated_action",
+    "contradiction",
+    "retry_count",
+    "step_position",
+    "previous_risk",
+    "signal_tool_error",
+    "signal_low_confidence",
+    "signal_repetition",
+    "signal_contradiction",
+    "signal_no_progress"
+  ],
+  "rows": 40,
+  "task_groups": 20,
+  "seed": 42
+}

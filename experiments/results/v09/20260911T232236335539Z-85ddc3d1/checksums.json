@@ -1,0 +1,18 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "DATASET_CARD.md": "58d7d4bb7a33019237a6f7d730ff30ba147035bddcf0b44ca5d5ed5ea82e29b7",
+    "MODEL_CARD.md": "4b7b5e6e7273fe3c548994000392c0706643d4456e2a8123354648072f279c89",
+    "audit.json": "090936bbda427079f4236e967d33a1eb826806fa40c759e580b6ab9fe5daf419",
+    "config_snapshot.json": "01330b52350b1b9c59824389ae8ddb4a74838abe83816e70728ff037e5bd4c88",
+    "environment.json": "6e649026bfccfd3672ef1f1fb5f53d990132802fcae5f2fd1e8da0d25ee4d6a8",
+    "metrics.svg": "455617827baf115d7295204f87fa6cd43effa2dea597afc4414eeb0365135f71",
+    "model/data_quality.json": "2a594e0f6aedd3b45b9ddf2dc51d87fa2dad42eecc1fbcae7cc12f0b5440db11",
+    "model/external_metadata.json": "445a589016fee4dfb24a145af62aec915634d78bd48fbec336b40c3aab481a02",
+    "model/external_metrics.csv": "ce7da1af9a51f736e5abc19b987ac5570f2e1fba567273442909a69b8834ecbd",
+    "model/external_model.joblib": "ff1e77b70ca136eac6f04ce8fc6cc25c2a77b8cd46c4f3690f8f6fcb4175281c",
+    "model/external_report.md": "d73a855b8b2530e33ced171b36a365df7cf9a80c0195a069b09128d5d7c4c362",
+    "model/external_splits.json": "f4916f2d827505bd38f1c487250048290c00a3b8fed046544fbc68970991ea56",
+    "run_manifest.json": "fab8c6dabc7498516d424129fdf4370cff9e3d0821c331ca5d2cd345ffbf0db8"
+  }
+}

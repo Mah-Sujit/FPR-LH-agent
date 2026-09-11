@@ -1,0 +1,29 @@
+{
+  "passed": false,
+  "checks": {
+    "dataset_valid": true,
+    "labels_contain_both_classes": true,
+    "train_validation_disjoint": true,
+    "train_test_disjoint": true,
+    "validation_test_disjoint": true,
+    "metrics_present": true,
+    "observations_redacted": false
+  },
+  "quality": {
+    "rows": 40,
+    "datasets": 1,
+    "tasks": 20,
+    "runs": 20,
+    "label_counts": {
+      "false": 32,
+      "true": 8
+    },
+    "failure_type_counts": {
+      "missing_evidence": 2,
+      "none": 32,
+      "tool_execution_error": 6
+    },
+    "annotators": 1,
+    "redacted_rows": 0
+  }
+}

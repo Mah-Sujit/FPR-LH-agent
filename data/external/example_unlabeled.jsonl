@@ -1,0 +1,3 @@
+{"dataset_id":"example","task_id":"task-01","run_id":"run-01","step":1,"goal":"Check a calculation","action":"calculator","observation":"Computed 42","success":true,"confidence":0.94,"progress_score":1.0,"source":"illustrative-only"}
+{"dataset_id":"example","task_id":"task-02","run_id":"run-01","step":1,"goal":"Find supporting evidence","action":"search","observation":"No matching evidence found","success":true,"confidence":0.42,"progress_score":0.6,"source":"illustrative-only"}
+{"dataset_id":"example","task_id":"task-03","run_id":"run-01","step":1,"goal":"Call a data tool","action":"data_tool","observation":"Tool timed out","success":false,"confidence":0.15,"progress_score":0.2,"source":"illustrative-only"}

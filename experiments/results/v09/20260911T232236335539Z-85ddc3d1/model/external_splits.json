@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "group_key": "dataset_id:task_id",
+  "train_groups": [
+    "fprlh-offline-tools-v1:calc-01",
+    "fprlh-offline-tools-v1:calc-02",
+    "fprlh-offline-tools-v1:calc-04",
+    "fprlh-offline-tools-v1:calc-05",
+    "fprlh-offline-tools-v1:calc-06",
+    "fprlh-offline-tools-v1:calc-07",
+    "fprlh-offline-tools-v1:read-01",
+    "fprlh-offline-tools-v1:read-02",
+    "fprlh-offline-tools-v1:robust-02",
+    "fprlh-offline-tools-v1:robust-04",
+    "fprlh-offline-tools-v1:search-01",
+    "fprlh-offline-tools-v1:search-05"
+  ],
+  "validation_groups": [
+    "fprlh-offline-tools-v1:calc-03",
+    "fprlh-offline-tools-v1:calc-08",
+    "fprlh-offline-tools-v1:search-04",
+    "fprlh-offline-tools-v1:search-06"
+  ],
+  "test_groups": [
+    "fprlh-offline-tools-v1:robust-01",
+    "fprlh-offline-tools-v1:robust-03",
+    "fprlh-offline-tools-v1:search-02",
+    "fprlh-offline-tools-v1:search-03"
+  ]
+}

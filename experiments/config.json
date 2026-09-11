@@ -1,0 +1,21 @@
+{
+  "predictor": "rule_based",
+  "model_path": "experiments/results/v06/best_model.joblib",
+  "prediction_threshold": 0.3,
+  "replan_threshold": 0.75,
+  "max_retries": 2,
+  "max_replans": 1,
+  "max_rollbacks": 1,
+  "max_iterations": 50,
+  "runs_per_task": 3,
+  "seed": 42,
+  "noisy_runs_per_task": 10,
+  "threshold_sweep": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+  "risk_weights": {
+    "tool_error": 0.45,
+    "low_confidence": 0.2,
+    "repetition": 0.15,
+    "contradiction": 0.15,
+    "no_progress": 0.05
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "dataset_id": "fprlh-offline-tools-v1",
+  "version": "1.0.0",
+  "source": "curated-local-tool-tasks",
+  "tasks": [
+    {"task_id":"calc-01","category":"arithmetic","goal":"Calculate a grocery subtotal and tax","steps":[{"tool":"calculator","arguments":{"expression":"12.5 + 8.25 + 4.75"}},{"tool":"calculator","arguments":{"expression":"25.5 * 1.08"}}]},
+    {"task_id":"calc-02","category":"arithmetic","goal":"Calculate percentage growth","steps":[{"tool":"calculator","arguments":{"expression":"100 - 80"}},{"tool":"calculator","arguments":{"expression":"20 / 80 * 100"}}]},
+    {"task_id":"calc-03","category":"arithmetic","goal":"Calculate an average","steps":[{"tool":"calculator","arguments":{"expression":"15 + 21 + 18"}},{"tool":"calculator","arguments":{"expression":"54 / 3"}}]},
+    {"task_id":"calc-04","category":"arithmetic","goal":"Convert hours to minutes and seconds","steps":[{"tool":"calculator","arguments":{"expression":"2.5 * 60"}},{"tool":"calculator","arguments":{"expression":"150 * 60"}}]},
+    {"task_id":"calc-05","category":"arithmetic","goal":"Calculate a discounted price","steps":[{"tool":"calculator","arguments":{"expression":"240 * 0.15"}},{"tool":"calculator","arguments":{"expression":"240 - 36"}}]},
+    {"task_id":"calc-06","category":"arithmetic","goal":"Calculate rectangle area and perimeter","steps":[{"tool":"calculator","arguments":{"expression":"12 * 7"}},{"tool":"calculator","arguments":{"expression":"2 * (12 + 7)"}}]},
+    {"task_id":"calc-07","category":"arithmetic","goal":"Calculate compound arithmetic","steps":[{"tool":"calculator","arguments":{"expression":"(18 + 6) / 4"}},{"tool":"calculator","arguments":{"expression":"6 ** 2"}}]},
+    {"task_id":"calc-08","category":"arithmetic","goal":"Calculate unit cost","steps":[{"tool":"calculator","arguments":{"expression":"75 / 6"}},{"tool":"calculator","arguments":{"expression":"12.5 * 10"}}]},
+    {"task_id":"search-01","category":"retrieval","goal":"Find the monitoring description","steps":[{"tool":"search_text","arguments":{"path":"corpus.md","query":"monitoring"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"observations"}}]},
+    {"task_id":"search-02","category":"retrieval","goal":"Find supported recovery actions","steps":[{"tool":"search_text","arguments":{"path":"corpus.md","query":"recovery"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"rollback"}}]},
+    {"task_id":"search-03","category":"retrieval","goal":"Find leakage prevention guidance","steps":[{"tool":"search_text","arguments":{"path":"corpus.md","query":"task-grouped"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"leakage"}}]},
+    {"task_id":"search-04","category":"retrieval","goal":"Find calibration guidance","steps":[{"tool":"search_text","arguments":{"path":"corpus.md","query":"calibration"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"probabilities"}}]},
+    {"task_id":"search-05","category":"retrieval","goal":"Find human review requirements","steps":[{"tool":"search_text","arguments":{"path":"corpus.md","query":"human-reviewed"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"provenance"}}]},
+    {"task_id":"search-06","category":"retrieval","goal":"Search for absent benchmark guidance","steps":[{"tool":"search_text","arguments":{"path":"corpus.md","query":"quantum benchmark"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"unavailable citation"}}]},
+    {"task_id":"read-01","category":"document_reading","goal":"Read and search the local corpus","steps":[{"tool":"read_text","arguments":{"path":"corpus.md"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"external evaluation"}}]},
+    {"task_id":"read-02","category":"document_reading","goal":"Read configuration and find the seed","steps":[{"tool":"read_text","arguments":{"path":"../../experiments/config.json"}},{"tool":"search_text","arguments":{"path":"../../experiments/config.json","query":"seed"}}]},
+    {"task_id":"robust-01","category":"tool_robustness","goal":"Handle division by zero safely","steps":[{"tool":"calculator","arguments":{"expression":"10 / 0"}},{"tool":"calculator","arguments":{"expression":"10 / 2"}}]},
+    {"task_id":"robust-02","category":"tool_robustness","goal":"Reject executable calculator input","steps":[{"tool":"calculator","arguments":{"expression":"__import__('os').getcwd()"}},{"tool":"calculator","arguments":{"expression":"9 * 9"}}]},
+    {"task_id":"robust-03","category":"tool_robustness","goal":"Handle a missing document","steps":[{"tool":"read_text","arguments":{"path":"missing.md"}},{"tool":"search_text","arguments":{"path":"corpus.md","query":"recovery"}}]},
+    {"task_id":"robust-04","category":"tool_robustness","goal":"Reject a path outside the collection root","steps":[{"tool":"read_text","arguments":{"path":"../../../README.md"}},{"tool":"read_text","arguments":{"path":"corpus.md"}}]}
+  ]
+}

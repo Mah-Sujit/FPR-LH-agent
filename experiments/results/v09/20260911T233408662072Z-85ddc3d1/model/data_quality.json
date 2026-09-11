@@ -1,0 +1,17 @@
+{
+  "rows": 40,
+  "datasets": 1,
+  "tasks": 20,
+  "runs": 20,
+  "label_counts": {
+    "false": 32,
+    "true": 8
+  },
+  "failure_type_counts": {
+    "missing_evidence": 2,
+    "none": 32,
+    "tool_execution_error": 6
+  },
+  "annotators": 1,
+  "redacted_rows": 0
+}

@@ -1,0 +1,25 @@
+{
+  "version": "0.6.0",
+  "model": "random_forest",
+  "threshold": 0.5,
+  "features": [
+    "confidence",
+    "tool_success",
+    "progress_score",
+    "progress_delta",
+    "repeated_action",
+    "contradiction",
+    "retry_count",
+    "step_position",
+    "previous_risk",
+    "signal_tool_error",
+    "signal_low_confidence",
+    "signal_repetition",
+    "signal_contradiction",
+    "signal_no_progress"
+  ],
+  "training_rows": 540,
+  "validation_rows": 180,
+  "test_rows": 180,
+  "seed": 42
+}

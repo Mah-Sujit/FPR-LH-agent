@@ -1,0 +1,9 @@
+{
+  "run_id": "20260911T232456816322Z-85ddc3d1",
+  "project_version": "1.0.0rc1",
+  "created_at": "20260911T232456816322Z",
+  "dataset": "data/collection/v08/provisional_labeled.jsonl",
+  "dataset_sha256": "85ddc3d12fd1a3d43b6d44d97c293db4dea28f63ca5071a508a6574b9aacace1",
+  "config": "experiments/config.json",
+  "audit_passed": true
+}

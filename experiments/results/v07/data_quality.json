@@ -1,0 +1,17 @@
+{
+  "rows": 3,
+  "datasets": 1,
+  "tasks": 3,
+  "runs": 3,
+  "label_counts": {
+    "false": 1,
+    "true": 2
+  },
+  "failure_type_counts": {
+    "missing_evidence": 1,
+    "none": 1,
+    "tool_execution_error": 1
+  },
+  "annotators": 0,
+  "redacted_rows": 0
+}

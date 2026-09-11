@@ -1,0 +1,55 @@
+dataset_id,task_id,run_id,step,goal,action,observation,success,confidence,progress_score,repeated_action,contradiction,retry_count,step_position,progress_delta,previous_risk,actual_failure,failure_type,annotator_id,source
+fprlh-offline-tools-v1,calc-01,run-01,1,Calculate a grocery subtotal and tax,calculator_1,25.5,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-01,run-01,2,Calculate a grocery subtotal and tax,calculator_2,27.540000000000003,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-02,run-01,1,Calculate percentage growth,calculator_1,20,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-02,run-01,2,Calculate percentage growth,calculator_2,25.0,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-03,run-01,1,Calculate an average,calculator_1,54,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-03,run-01,2,Calculate an average,calculator_2,18.0,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-04,run-01,1,Convert hours to minutes and seconds,calculator_1,150.0,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-04,run-01,2,Convert hours to minutes and seconds,calculator_2,9000,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-05,run-01,1,Calculate a discounted price,calculator_1,36.0,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-05,run-01,2,Calculate a discounted price,calculator_2,204,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-06,run-01,1,Calculate rectangle area and perimeter,calculator_1,84,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-06,run-01,2,Calculate rectangle area and perimeter,calculator_2,38,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-07,run-01,1,Calculate compound arithmetic,calculator_1,6.0,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-07,run-01,2,Calculate compound arithmetic,calculator_2,36,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-08,run-01,1,Calculate unit cost,calculator_1,12.5,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,calc-08,run-01,2,Calculate unit cost,calculator_2,125.0,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:arithmetic
+fprlh-offline-tools-v1,search-01,run-01,1,Find the monitoring description,search_text_1,"3: Trajectory monitoring records actions, observations, confidence, and progress.",True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-01,run-01,2,Find the monitoring description,search_text_2,"3: Trajectory monitoring records actions, observations, confidence, and progress.",True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-02,run-01,1,Find supported recovery actions,search_text_1,"4: Rule-based recovery supports retry, verification, replanning, rollback, and abstention.",True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-02,run-01,2,Find supported recovery actions,search_text_2,"4: Rule-based recovery supports retry, verification, replanning, rollback, and abstention.",True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-03,run-01,1,Find leakage prevention guidance,search_text_1,5: Learned predictors should be evaluated on task-grouped splits to prevent leakage.,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-03,run-01,2,Find leakage prevention guidance,search_text_2,5: Learned predictors should be evaluated on task-grouped splits to prevent leakage.,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-04,run-01,1,Find calibration guidance,search_text_1,6: Calibration measures whether predicted failure probabilities match observed outcomes.,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-04,run-01,2,Find calibration guidance,search_text_2,6: Calibration measures whether predicted failure probabilities match observed outcomes.,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-05,run-01,1,Find human review requirements,search_text_1,7: External evaluation requires human-reviewed labels and documented data provenance.,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-05,run-01,2,Find human review requirements,search_text_2,7: External evaluation requires human-reviewed labels and documented data provenance.,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-06,run-01,1,Search for absent benchmark guidance,search_text_1,,True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,search-06,run-01,2,Search for absent benchmark guidance,search_text_2,,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:retrieval
+fprlh-offline-tools-v1,read-01,run-01,1,Read and search the local corpus,read_text_1,"# ForesightAgent reference corpus
+
+Trajectory monitoring records actions, observations, confidence, and progress.
+Rule-based recovery supports retry, verification, replanning, rollback, and abstention.
+Learned predictors should be evaluated on task-grouped splits to prevent leakage.
+Calibration measures whether predicted failure probabilities match observed outcomes.
+External evaluation requires human-reviewed labels and documented data provenance.
+",True,1.0,0.5,False,False,0,0.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:document_reading
+fprlh-offline-tools-v1,read-01,run-01,2,Read and search the local corpus,search_text_2,7: External evaluation requires human-reviewed labels and documented data provenance.,True,1.0,1.0,False,False,0,1.0,0.5,0.0,,,reviewer-b,curated-local-tool-tasks:document_reading
+fprlh-offline-tools-v1,read-02,run-01,1,Read configuration and find the seed,read_text_1,Action raised an exception.,False,0.0,0.0,False,False,0,0.0,0.0,0.0,,,reviewer-b,curated-local-tool-tasks:document_reading
+fprlh-offline-tools-v1,read-02,run-01,2,Read configuration and find the seed,search_text_2,Action raised an exception.,False,0.0,0.0,False,False,0,1.0,0.0,0.65,,,reviewer-b,curated-local-tool-tasks:document_reading
+fprlh-offline-tools-v1,robust-01,run-01,1,Handle division by zero safely,calculator_1,Action raised an exception.,False,0.0,0.0,False,False,0,0.0,0.0,0.0,,,reviewer-b,curated-local-tool-tasks:tool_robustness
+fprlh-offline-tools-v1,robust-01,run-01,2,Handle division by zero safely,calculator_2,5.0,True,1.0,1.0,False,False,0,1.0,1.0,0.65,,,reviewer-b,curated-local-tool-tasks:tool_robustness
+fprlh-offline-tools-v1,robust-02,run-01,1,Reject executable calculator input,calculator_1,Action raised an exception.,False,0.0,0.0,False,False,0,0.0,0.0,0.0,,,reviewer-b,curated-local-tool-tasks:tool_robustness
+fprlh-offline-tools-v1,robust-02,run-01,2,Reject executable calculator input,calculator_2,81,True,1.0,1.0,False,False,0,1.0,1.0,0.65,,,reviewer-b,curated-local-tool-tasks:tool_robustness
+fprlh-offline-tools-v1,robust-03,run-01,1,Handle a missing document,read_text_1,Action raised an exception.,False,0.0,0.0,False,False,0,0.0,0.0,0.0,,,reviewer-b,curated-local-tool-tasks:tool_robustness
+fprlh-offline-tools-v1,robust-03,run-01,2,Handle a missing document,search_text_2,"4: Rule-based recovery supports retry, verification, replanning, rollback, and abstention.",True,1.0,1.0,False,False,0,1.0,1.0,0.65,,,reviewer-b,curated-local-tool-tasks:tool_robustness
+fprlh-offline-tools-v1,robust-04,run-01,1,Reject a path outside the collection root,read_text_1,Action raised an exception.,False,0.0,0.0,False,False,0,0.0,0.0,0.0,,,reviewer-b,curated-local-tool-tasks:tool_robustness
+fprlh-offline-tools-v1,robust-04,run-01,2,Reject a path outside the collection root,read_text_2,"# ForesightAgent reference corpus
+
+Trajectory monitoring records actions, observations, confidence, and progress.
+Rule-based recovery supports retry, verification, replanning, rollback, and abstention.
+Learned predictors should be evaluated on task-grouped splits to prevent leakage.
+Calibration measures whether predicted failure probabilities match observed outcomes.
+External evaluation requires human-reviewed labels and documented data provenance.
+",True,1.0,1.0,False,False,0,1.0,1.0,0.65,,,reviewer-b,curated-local-tool-tasks:tool_robustness

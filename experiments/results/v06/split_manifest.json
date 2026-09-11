@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "strategy": "grouped_by_task",
+  "train_groups": [
+    "contradiction_02",
+    "contradiction_03",
+    "contradiction_04",
+    "hallucination_01",
+    "hallucination_02",
+    "hallucination_03",
+    "missing_evidence_01",
+    "missing_evidence_02",
+    "missing_evidence_04",
+    "missing_evidence_05",
+    "planning_error_04",
+    "planning_error_05",
+    "repetition_loop_01",
+    "repetition_loop_02",
+    "repetition_loop_03",
+    "tool_execution_error_01",
+    "tool_execution_error_02",
+    "tool_execution_error_05"
+  ],
+  "validation_groups": [
+    "contradiction_01",
+    "contradiction_05",
+    "hallucination_04",
+    "missing_evidence_03",
+    "planning_error_01",
+    "tool_execution_error_03"
+  ],
+  "test_groups": [
+    "hallucination_05",
+    "planning_error_02",
+    "planning_error_03",
+    "repetition_loop_04",
+    "repetition_loop_05",
+    "tool_execution_error_04"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "dataset_id": "fprlh-offline-tools-v1",
+  "version": "1.0.0",
+  "source": "curated-local-tool-tasks",
+  "collected_at": "2026-09-11T23:12:47.923810+00:00",
+  "catalog": "experiments/tasks/v08_tasks.json",
+  "tasks": 20,
+  "rows": 40,
+  "categories": [
+    "arithmetic",
+    "document_reading",
+    "retrieval",
+    "tool_robustness"
+  ],
+  "labels": "unlabeled",
+  "network_used": false
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "implementation": "CPython",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "foresight-agent": "0.9.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "pytest": "8.4.2",
+    "openai": "2.54.0"
+  }
+}

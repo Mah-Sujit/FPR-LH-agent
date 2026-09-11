@@ -1,0 +1,4 @@
+dataset_id,task_id,run_id,step,goal,action,observation,success,confidence,progress_score,repeated_action,contradiction,retry_count,step_position,progress_delta,previous_risk,actual_failure,failure_type,annotator_id,source
+example,task-01,run-01,1,Check a calculation,calculator,Computed 42,True,0.94,1.0,False,False,0,0.0,0.0,0.0,False,none,,illustrative-only
+example,task-02,run-01,1,Find supporting evidence,search,No matching evidence found,True,0.42,0.6,False,False,0,0.0,0.0,0.0,True,missing_evidence,,illustrative-only
+example,task-03,run-01,1,Call a data tool,data_tool,Tool timed out,False,0.15,0.2,False,False,0,0.0,0.0,0.0,True,tool_execution_error,,illustrative-only
